@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="images/my-avatar.png" alt="Raffay Malik" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Raffay Malik">Raffay Malik</h1>
+          <p class="title"> Founded Aesthetix.pk</p><br>
+          <p class="title">Product Marketing Professional</p><br>
+          <p class="title">Business Analytics Specialization</p><br>
+          <p class="title">Introduction to SQL for BigQuery <br> and
+            Cloud SQL</p><br>
+          <p class="title">Tippie '25</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:raffaymalik2001@gmail.com" class="contact-link">raffaymalik2001@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="wa.me/+13199362268" class="contact-link">+1(319)936-2268</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">DOB</p>
+
+              <time datetime="1982-06-23">04 Sep, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Iowa, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/raffaymalik/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/rzmalikk" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I'm Raffay Malik, a global e-commerce entrepreneur and product marketing expert. My core areas of
+            interest are supply chain scaling, marketplace performance optimization, and developing customer-centric,
+            conversion-driven brands.
+          </p>
+
+          <p>
+            With over five years of experience working in the United States, the Middle East, and South Asia, I have
+            founded and operated a number of ventures, including the global home decor marketplace Aesthetix.pk and the
+            cross-border sourcing platform Impactron. Whether it's refining operations, driving digital expansion
+            through Meta/TikTok advertising or developing product listings to drive results, my work intersects
+            data-driven strategy with creative execution.
+          </p>
+
+          <p>
+            I've managed global teams, managed over 500 SKUs across five continents, and enhanced vendor networks and
+            logistics to cut costs and enhance delivery efficiency. At the University of Iowa's Tippie College of
+            Business, I'm currently pursuing a degree in Finance & Management, with continued hands-on experience with
+            real-world impact.
+
+            <br>Let's connect and create something amazing.
+          </p>
+        </section>
+<section class="aesthetix-story-section">
+    <div class="aesthetix-border-wrapper">
+      <div class="aesthetix-story-row">
+        <div class="aesthetix-story-image">
+          <img src="images/STORY OF AES.jpg" alt="Decorative frame from e-commerce store" id="aesthetixTrigger">
+        </div>
+        <div class="aesthetix-story-text">
+          <h2>How I Got Started in Ecommerce</h2>
+          <p>
+            During the COVID lockdown, when everyone was stuck at home, I started thinking, if people can’t go out, why not bring good design to them? That’s when I launched my first e-commerce store. I began selling home décor like frames, canvases, and neon signs, delivering them straight to people’s doors. Courier services were barely operating, so I packed and delivered most of the orders myself, sometimes in my own car, just to make it work. What started as a small hustle turned into a real business. And that’s where my journey began.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="aesthetix-modal" id="aesthetixModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      <span class="aesthetix-close" id="aesthetixCloseBtn" role="button" aria-label="Close modal">×</span>
+      <img src="images/STORY OF AES.jpg" class="aesthetix-modal-img" alt="Zoomed decorative frame from e-commerce store">
+    </div>
+  </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/entrepreneur.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Entrepreneurship</h4>
+
+                <p class="service-item-text">
+                  Building and scaling brands from the ground up, from idea validation to full-scale operations.
+                  Successfully launched multiple ventures across e-commerce, F&B, and EdTech.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-data.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Management</h4>
+
+                <p class="service-item-text">
+                  Using data to drive smart decisions. From analyzing customer behavior to optimizing supply chains, I
+                  turn insights into actions that grow businesses efficiently.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-design (1).svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business-to-Business (B2B)</h4>
+
+                <p class="service-item-text">
+                  Connecting manufacturers, vendors, and service providers across borders. I specialize in managing and
+                  optimizing B2B relationships to ensure seamless product flow and cost-effective operations.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Marketing & Branding</h4>
+
+                <p class="service-item-text">
+                  Crafting compelling product stories and visuals that convert. Whether on Shopify, Etsy, or
+                  Amazon-style platforms, I optimize every element for performance.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="aesthetix-banner-section">
+  <div class="aesthetix-banner-wrapper">
+    <div class="aesthetix-banner-content">
+      <img src="images/graduation_pic.jpeg" alt="Proud Graduate of the University of Iowa, USA">
+      <div class="aesthetix-banner-overlay">
+        <h1>Proud Graduate of the University of Iowa, USA</h1>
+        <p>Funded by the Government of Pakistan. Built for global impact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-1.png" alt="Ahmad R." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahmad R.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    From sourcing to ad creative, Raffay took our store from idea to execution. His guidance was a
+                    game-changer for our launch.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-2.png" alt="Zara K." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zara K.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Raffay helped us completely rework our product listings and ad strategy. We saw a 30% lift in
+                    conversions within weeks. Super professional and data-savvy.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-3.png" alt="Emily J." width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily J.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I struggled with getting traction on Etsy until Raffay helped me optimize my listings. We hit our
+                    first 1,000 sales way faster than expected.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-4.png" alt="Jason" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jason</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Raffay brought clarity and structure to my entire supply chain. His insights on cross-border
+                    logistics and vendor management helped cut costs by 20% and improved delivery timelines. Highly
+                    recommended!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The University of Iowa Tippie College of Business, USA </h4>
+
+              <span>August 2020 - May 2025</span>
+
+              <p class="timeline-text">
+                Bachelor's degree, Finance & Management
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lahore Grammar School, Pakistan</h4>
+
+              <span>August 2009 - January 2019</span>
+
+              <p class="timeline-text">
+                A levels, Computer Science, Mathematics, Business
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p> -->
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder & CEO – Aesthetix.pk</h4>
+
+              <span>2020 — Present</span>
+
+              <p class="timeline-text">
+                Launched and scaled a global home décor brand with 500+ SKUs. Achieved 99% on-time delivery through
+                hybrid logistics and grew conversions by 22% via SEO and paid media <br>($30k+ ad spend).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder & CEO – Kappako Signs (Etsy Store)</h4>
+
+              <span>2024 Nov — Present</span>
+
+              <p class="timeline-text">
+                Launched a modern home decor brand focused on neon signs, posters, rugs, and candles. Scaled the Etsy
+                store to 10,000+ in sales within the first few months by leveraging trend-based product design,
+                high-converting listings, and strategic paid ads. Focused on branding, creative direction, and customer
+                satisfaction.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Co-Founder & Head of Product – Impactron PVT LTD</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Managed cross-border operations and vendor sourcing across Middle East, China, and the U.S. Led a team
+                of 10 and optimized 50+ product listings, improving conversion rates by 15%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder – Smoochyz Cafe</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Supervised 14-member team and optimized supply chain operations. Implemented SOPs and data-driven
+                strategies to enhance efficiency and reduce overhead.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Co-Founder – Next Level Prep</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Scaled an EdTech platform to five-figure revenue within 3 days using targeted digital campaigns and
+                efficient resource planning.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Supply Chain Optimization</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Digital Marketing (Meta, TikTok, Snap Ads)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Product Listing & SEO</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Project Management</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics (Excel, SQL, BigQuery)</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cross-Border Vendor Coordination</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+   
+
+            </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.893725918542!2d-91.53421068462184!3d41.65580877924192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e441ef3354b8f9%3A0xa40380c06acccf1f!2s435%20S%20Linn%20St%2C%20Iowa%20City%2C%20IA%2052240%2C%20USA!5e0!3m2!1sen!2s!4v1716900784471!5m2!1sen!2s"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
